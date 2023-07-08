@@ -2,6 +2,7 @@
 #include <stdlib.h>
 /*
     This is a simple program to know the function types.
+    Random
 */
 //Global variables.
 int Num_1 = 0;

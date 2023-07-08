@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1686002550 source:b:\applications\codeblocks\projects\c_programming_course\bitwise&logicgates_exercise\main.c
+	<stdio.h>
+	<stdlib.h>
+

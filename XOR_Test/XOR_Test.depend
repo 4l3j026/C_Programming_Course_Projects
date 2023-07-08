@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1687420101 source:b:\applications\codeblocks\projects\c_programming_course\xor_test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1684258346 source:b:\applications\codeblocks\projects\c_programming_course\game_test\main.c
+	<stdio.h>
+	<windows.h>
+

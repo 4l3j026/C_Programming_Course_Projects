@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1686111452 source:b:\applications\codeblocks\projects\c_programming_course\execise3_icecreamstore\main.c
+	<stdio.h>
+	<stdlib.h>
+

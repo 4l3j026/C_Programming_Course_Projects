@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1687059014 source:b:\applications\codeblocks\projects\c_programming_course\array_exercise_2\main.c
+	<stdio.h>
+	<stdlib.h>
+

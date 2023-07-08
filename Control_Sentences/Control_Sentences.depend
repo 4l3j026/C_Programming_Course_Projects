@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1685855339 source:b:\applications\codeblocks\projects\c_programming_course\control_sentences\main.c
+	<stdio.h>
+	<stdlib.h>
+

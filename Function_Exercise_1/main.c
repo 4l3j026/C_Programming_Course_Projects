@@ -26,7 +26,7 @@ int main()
     printf("\n--------------------------------------------");
     Sum_of_3Numbers(100, 100, 100); //Call and enter values.
     printf("\n--------------------------------------------");
-    printf("\nThe product between numbers entered is: %d",Product_of_2Numbers(10, 80));
+    printf("\nThe product between numbers entered is: %d",Product_of_2Numbers(10, 80)); //Call function, enter parameters and return value.
     printf("\n--------------------------------------------");
 
     return 0;

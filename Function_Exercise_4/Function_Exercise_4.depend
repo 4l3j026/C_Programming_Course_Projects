@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1690224116 source:b:\applications\codeblocks\projects\c_programming_course\function_exercise_4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

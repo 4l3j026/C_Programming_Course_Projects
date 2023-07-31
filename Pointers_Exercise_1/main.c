@@ -14,8 +14,8 @@ int main()
     P = &var; //Assign to the pointer char value address of the variable.
 
     printf("Hello everyone and welcome to this program!\n");
-    printf("\nThe var value is: %c", *P); //Show
-    printf("\nThe address of the pointer is: %d", P);
+    printf("\nThe var value is: %c", *P); //Show the content of the value using "*" operator.
+    printf("\nThe address of the pointer is: %d", P); //Show address of the pointer.
 
     return 0;
 }

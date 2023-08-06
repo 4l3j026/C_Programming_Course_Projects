@@ -12,7 +12,7 @@ void User (void);
 void Pointers(int x, int y);
 
 //Global variables.
-int var1 = 0,var2 = 0, var3 = 0, var4 = 0;
+int var1 = 0,var2 = 0;
 int *point;
 
 //Main function.

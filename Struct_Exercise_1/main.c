@@ -25,10 +25,14 @@ int main()
 {
     //Show trough console the Cello notes.
     printf("Hello everyone and welcome to this program!\n");
-    printf("The open strings of the cello are: \n");
+    printf("The open strings of the Cello are: \n");
     printf("\t - The most highest string is: %s \n", Cello.Highs);
     printf("\t - The middle strings are: %s \n", Cello.Mids);
     printf("\t - The most lowest string is: %s \n", Cello.Lows);
+    //However I wanna to change the variable I can do that:
+    struct Music Violin = {"E","A&D","G"}; //Update value of the variables from Violin.
+    printf("\n\nThe open strings notes of the Violin are: \n");
+    printf("\t - The most highest string is: %s \n", Violin.Highs);
 
     return 0;
 }

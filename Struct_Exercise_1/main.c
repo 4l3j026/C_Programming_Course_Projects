@@ -7,7 +7,7 @@
 
 */
 
-//Struct function.
+//Defining the Struct Function.
 struct Music{
 
     //Create general variables.
@@ -30,9 +30,12 @@ int main()
     printf("\t - The middle strings are: %s \n", Cello.Mids);
     printf("\t - The most lowest string is: %s \n", Cello.Lows);
     //However I wanna to change the variable I can do that:
-    struct Music Violin = {"E","A&D","G"}; //Update value of the variables from Violin.
+    struct Music Violin = {"E","A & D","G"}; //Update value of the variables from Violin.
     printf("\n\nThe open strings notes of the Violin are: \n");
     printf("\t - The most highest string is: %s \n", Violin.Highs);
+    printf("\t - The middle strings are: %s \n", Violin.Mids);
+    printf("\t - The most lowest string is: %s \n", Violin.Lows);
+
 
     return 0;
 }

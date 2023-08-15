@@ -14,14 +14,15 @@ struct Music{
     char Mids[10];
     char Lows[10];
 
-} Cello = {"A note.", "D & G notes.", "C note."};
-//struct Music Violin = {"E note.", "A & D notes.", "G note."};
+};
+struct Music Cello = {"A note.", "D & G notes.", "C note."};
+struct Music Violin = {"E note.", "A & D notes.", "G note."};
 
 //Main function.
 int main()
 {
     printf("Hello everyone and welcome to this program!\n");
-    printf("%s", Cello.Highs);
+    printf("%s ; %s", Cello.Highs, Violin.Mids);
     return 0;
 }
 

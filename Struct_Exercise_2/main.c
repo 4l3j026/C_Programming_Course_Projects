@@ -7,6 +7,19 @@
         his personal info.
 */
 
+//Prototype Functions.
+void Require_Data (void);
+
+//Develop the struct function.
+struct Conservatory {
+
+        int ID;
+        char Name[30];
+        char Instrument[16];
+        float Grades[5];
+
+};
+
 //Main function.
 int main()
 {
@@ -14,3 +27,5 @@ int main()
 
     return 0;
 }
+
+//Develop function to require to user data.

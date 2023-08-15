@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1691359057 source:c:\apps\git\repositories\c_programming_course_projects\pointers_exercise_4_change\main.c
+	<stdio.h>
+	<stdlib.h>
+

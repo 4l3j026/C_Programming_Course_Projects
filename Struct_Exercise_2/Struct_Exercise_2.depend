@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692141833 source:c:\apps\git\repositories\c_programming_course_projects\struct_exercise_2\main.c
+	<stdio.h>
+	<stdlib.h>
+

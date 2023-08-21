@@ -3,12 +3,13 @@
 
 /*
     Project Description:
-        Calculate the average of the two students enter
+        Calculate the average of the two students and enter
         his personal info.
 */
 
 //Prototype Functions.
 void Require_Data ();
+void Average();
 
 //Develop the struct function.
 struct Conservatory {
@@ -17,6 +18,8 @@ struct Conservatory {
         char Name[30];
         char Instrument[16];
         float Grades[5];
+        float Total_Sum;
+        float Result;
 
 }Student1; //First way.
 
@@ -30,8 +33,9 @@ int main()
 
     printf("Hello everyone and welcome to this program!\n");
 
-    //Create instance of the struct
+    //Calling functions.
     Require_Data();
+    Average();
 
     return 0;
 }
@@ -39,6 +43,7 @@ int main()
 //Develop function to require to user data.
 void Require_Data (){
 
+    //Personal Data of the student.
     printf("\nEnter the personal information of the student: \n");
     printf("\nName: ");
     gets(Student1.Name);
@@ -46,9 +51,21 @@ void Require_Data (){
     scanf("%d", &Student1.ID);
     printf("\nInstrument: ");
     scanf("%s", &Student1.Name);
+    //Take data for the array.
     for (int i = 0; i < 5; i++){
         printf("\nEnter note %d :", i+1);
         scanf("%f", &Student1.Grades[i]);
+        Student1.Total_Sum += Student1.Grades[i];
     }
 
 }
+
+//Development average function.
+void Average (){
+
+    //Using variables of the struct function to calculate the average.
+    Student1.Result = Student1.Total_Sum /5;
+    printf("\nThe average of student is: %.2f", Student1.Result);
+
+}
+

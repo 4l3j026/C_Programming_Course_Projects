@@ -21,9 +21,13 @@ int main()
 
     printf("Hi everyone and welcome to this program!\n");
 
-    Object.Var_1 = 4;
+    Object.Var_1 = 92;
 
+    //Show the value through another variables.
     printf("\nThe content of the first variable is: %d",Object.Var_2);
+
+    printf("\nThe content of the third variable is: %c",Object.Var_3);
+
 
     return 0;
 }

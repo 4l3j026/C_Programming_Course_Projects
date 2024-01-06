@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 
 /*
     Project Description:
@@ -8,23 +9,17 @@
 */
 
 //Global variables
-unsigned char User_Number = 0;
+uint8_t User_Number;
 
-enum {
-
-    Brown,
-    Green,
-    Orange,
-    Red
-
-};
+//Prototype functions.
+enum Traffic_Light;
 
 //Main function
 int main()
 {
     printf("Hello everyone and welcome to this program!\n\n");
     printf("Enter a integer number between 1 to 3: ");
-    scanf("%d", &User_Number);
+    scanf("%d", &User_Number); //Here, it's relevant access to address memory, not variable.
 
     switch(User_Number){
 
@@ -41,7 +36,7 @@ int main()
         break;
 
     default:
-        printf("\nYour option selected is not valid. ");
+        printf("\n\nYour option selected is not valid.\n\n");
         break;
 
     }
@@ -49,4 +44,11 @@ int main()
     return 0;
 }
 
+enum Traffic_Light{
 
+    Brown,
+    Green,
+    Orange,
+    Red
+
+};

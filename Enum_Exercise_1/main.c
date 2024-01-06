@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdint.h>
+#include <stdint.h> //This library is important to use integer of 8 bits size (uint8_t) unsigned integer.
 
 /*
     Project Description:
@@ -9,10 +9,17 @@
 */
 
 //Global variables
-uint8_t User_Number;
+uint8_t User_Number = 0;
 
-//Prototype functions.
-enum Traffic_Light;
+//Enum struct. (Important note: Before the main function.)
+enum Traffic_Light{
+
+    Brown, //It's equal to 0.
+    Green, //It's equal to 1.
+    Orange, //It's equal to 2.
+    Red //It's equal to 3.
+
+};
 
 //Main function
 int main()
@@ -44,11 +51,3 @@ int main()
     return 0;
 }
 
-enum Traffic_Light{
-
-    Brown,
-    Green,
-    Orange,
-    Red
-
-};

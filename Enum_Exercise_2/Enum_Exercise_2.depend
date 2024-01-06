@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1584205420 source:c:\apps\git\repositories\c_programming_course_projects\enum_exercise_2\main.c
+1704575223 source:c:\apps\git\repositories\c_programming_course_projects\enum_exercise_2\main.c
 	<stdio.h>
 	<stdlib.h>
+	<stdint.h>
 
